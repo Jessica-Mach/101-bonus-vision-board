@@ -1,0 +1,106 @@
+body{
+	font-family: "Montserrat", san-serif;
+	font-size: 20px;
+	color: #3B3B3B;
+	font-weight: bold;
+	background-color: #E8E8E8;
+	width: 1400px;
+	margin: auto;
+}
+h2{
+	font-size: 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+.highlight{
+	background-color: #FFF44F;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 6px 18px 10px 18px;
+	margin-left: 40px;
+}
+.highlight-r1{
+	background-color: #FFF44F;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 6px 18px 10px 18px;
+	margin: 20px 0px 0 246px;
+}
+.highlight-r2{
+	background-color: #FFF44F;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 6px 18px 10px 18px;
+	margin: 20px 0 0 180px;
+}
+.left{
+	display: inline-block;
+	margin: 0 0 0 40px;
+}
+.fancy{
+	font-family: 'Permanent Marker', cursive;
+	color: #FFF;
+}
+strong{
+	font-size: 38px;
+}
+#vision-board{
+	width: 1200px;
+	height: 800px;
+	margin: 100px;
+	background-image: url("../img/background.png");
+}
+.block{
+	float: left;
+	width: 400px;
+}
+.row-1, .row-3{
+	height: 200px;
+}
+.row-2{
+	height: 400px;
+}
+#flower{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#center{
+	background-color: #3B3B3B;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.list{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.corner{
+	background-color: #FFF;
+}
+#piggy .highlight{
+	margin-top: 80px;
+}
+#piggy img{
+	margin: 20px 20px 20px 40px;
+}
+#dog{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right{
+	margin-right: 40px;
+	text-align: right;
+}
+
+#airplane img{
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-left: 60px;
+}
